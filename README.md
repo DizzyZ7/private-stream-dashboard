@@ -6,12 +6,12 @@
 ## Установка
 1. Настроить Nginx с RTMP/HLS модулем (см. `nginx/nginx.conf`).
 2. Установить backend:
-```bash
+bash
 cd backend
 npm install
 node server.js
-3.	Запустить OBS → rtmp://<server-ip>/live/mystream
-4.	Открыть страницу: frontend/index.html?token=abc123
+4.	Запустить OBS → rtmp://<server-ip>/live/mystream
+5.	Открыть страницу: frontend/index.html?token=abc123
 
 
 Функции

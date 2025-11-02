@@ -10,3 +10,11 @@
 cd backend
 npm install
 node server.js
+3.	Запустить OBS → rtmp://<server-ip>/live/mystream
+4.	Открыть страницу: frontend/index.html?token=abc123
+
+
+Функции
+	•	Автоматическое обновление зрителей и просмотров
+	•	Светлый минималистичный интерфейс
+	•	Полностью приватно через токен
